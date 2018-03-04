@@ -40,7 +40,7 @@
 }
 
 - (void)startDownloading {
-    //NSLog(@"%ld, %ld, %ld", zoomLevel, xSequence, ySequence);
+    NSLog(@"%ld, %ld, %ld", zoomLevel, xSequence, ySequence);
     [downloader startDownloadingTileWithZ:zoomLevel X:xSequence Y:ySequence];
 }
 
