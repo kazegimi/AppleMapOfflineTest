@@ -16,6 +16,12 @@
 		4405174220451FCA00B9699F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405174120451FCA00B9699F /* main.m */; };
 		4405174C20451FCA00B9699F /* AppleMapOfflineTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405174B20451FCA00B9699F /* AppleMapOfflineTestTests.m */; };
 		4405175720451FCA00B9699F /* AppleMapOfflineTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4405175620451FCA00B9699F /* AppleMapOfflineTestUITests.m */; };
+		449DBB6520481EB10046F6D7 /* 23.png in Resources */ = {isa = PBXBuildFile; fileRef = 449DBB6420481EB10046F6D7 /* 23.png */; };
+		449DBB69204843C50046F6D7 /* 227.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 449DBB68204843C50046F6D7 /* 227.jpg */; };
+		449DBB6B2048452D0046F6D7 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 449DBB6A2048452D0046F6D7 /* 0.jpg */; };
+		449DBB6D204846590046F6D7 /* 12.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 449DBB6C204846590046F6D7 /* 12.jpg */; };
+		449DBB70204BA9200046F6D7 /* DownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 449DBB6F204BA9200046F6D7 /* DownloadManager.m */; };
+		449DBB73204BA9520046F6D7 /* Downloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 449DBB72204BA9520046F6D7 /* Downloader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,14 @@
 		4405175220451FCA00B9699F /* AppleMapOfflineTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMapOfflineTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4405175620451FCA00B9699F /* AppleMapOfflineTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleMapOfflineTestUITests.m; sourceTree = "<group>"; };
 		4405175820451FCA00B9699F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449DBB6420481EB10046F6D7 /* 23.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 23.png; path = img/23.png; sourceTree = SOURCE_ROOT; };
+		449DBB68204843C50046F6D7 /* 227.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 227.jpg; path = img/227.jpg; sourceTree = SOURCE_ROOT; };
+		449DBB6A2048452D0046F6D7 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 0.jpg; path = img/0.jpg; sourceTree = SOURCE_ROOT; };
+		449DBB6C204846590046F6D7 /* 12.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 12.jpg; path = img/12.jpg; sourceTree = SOURCE_ROOT; };
+		449DBB6E204BA9200046F6D7 /* DownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DownloadManager.h; sourceTree = "<group>"; };
+		449DBB6F204BA9200046F6D7 /* DownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DownloadManager.m; sourceTree = "<group>"; };
+		449DBB71204BA9520046F6D7 /* Downloader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Downloader.h; sourceTree = "<group>"; };
+		449DBB72204BA9520046F6D7 /* Downloader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Downloader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,11 +117,16 @@
 		4405172E20451FCA00B9699F /* AppleMapOfflineTest */ = {
 			isa = PBXGroup;
 			children = (
+				449DBB6120481D240046F6D7 /* tiles */,
 				4405172F20451FCA00B9699F /* AppDelegate.h */,
 				4405173020451FCA00B9699F /* AppDelegate.m */,
+				4405173520451FCA00B9699F /* Main.storyboard */,
 				4405173220451FCA00B9699F /* ViewController.h */,
 				4405173320451FCA00B9699F /* ViewController.m */,
-				4405173520451FCA00B9699F /* Main.storyboard */,
+				449DBB6E204BA9200046F6D7 /* DownloadManager.h */,
+				449DBB6F204BA9200046F6D7 /* DownloadManager.m */,
+				449DBB71204BA9520046F6D7 /* Downloader.h */,
+				449DBB72204BA9520046F6D7 /* Downloader.m */,
 				4405173B20451FCA00B9699F /* Assets.xcassets */,
 				4405173D20451FCA00B9699F /* LaunchScreen.storyboard */,
 				4405174020451FCA00B9699F /* Info.plist */,
@@ -133,6 +152,17 @@
 				4405175820451FCA00B9699F /* Info.plist */,
 			);
 			path = AppleMapOfflineTestUITests;
+			sourceTree = "<group>";
+		};
+		449DBB6120481D240046F6D7 /* tiles */ = {
+			isa = PBXGroup;
+			children = (
+				449DBB6C204846590046F6D7 /* 12.jpg */,
+				449DBB6A2048452D0046F6D7 /* 0.jpg */,
+				449DBB68204843C50046F6D7 /* 227.jpg */,
+				449DBB6420481EB10046F6D7 /* 23.png */,
+			);
+			path = tiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +271,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449DBB6B2048452D0046F6D7 /* 0.jpg in Resources */,
 				4405173F20451FCA00B9699F /* LaunchScreen.storyboard in Resources */,
+				449DBB6D204846590046F6D7 /* 12.jpg in Resources */,
+				449DBB69204843C50046F6D7 /* 227.jpg in Resources */,
 				4405173C20451FCA00B9699F /* Assets.xcassets in Resources */,
+				449DBB6520481EB10046F6D7 /* 23.png in Resources */,
 				4405173720451FCA00B9699F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,7 +304,9 @@
 			files = (
 				4405173420451FCA00B9699F /* ViewController.m in Sources */,
 				4405173120451FCA00B9699F /* AppDelegate.m in Sources */,
+				449DBB73204BA9520046F6D7 /* Downloader.m in Sources */,
 				4405174220451FCA00B9699F /* main.m in Sources */,
+				449DBB70204BA9200046F6D7 /* DownloadManager.m in Sources */,
 				4405173A20451FCA00B9699F /* AppleMapOfflineTest.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
